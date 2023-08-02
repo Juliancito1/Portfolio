@@ -1,0 +1,10 @@
+#root{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.mainSection{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    flex-grow: 1;
+}
