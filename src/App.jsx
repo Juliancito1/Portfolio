@@ -1,11 +1,13 @@
 import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
-import SobreMi from './components/SobreMi'
+import Principal from './components/Principal'
+import Menu from './views/Menu';
 function App() {
 
   return (
     <section className='mainSection'>
-        <SobreMi/>
+        <Menu></Menu>
+        <Principal/>
     </section>
   )
 }
