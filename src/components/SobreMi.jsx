@@ -12,6 +12,7 @@ const SobreMi = () => {
             y superarse en el día a día. Dando lo mejor de mi y logrando hacer
             un gran trabajo en cada proyecto que me proponga
           </p>
+          <hr></hr>
         </section>
     );
 };

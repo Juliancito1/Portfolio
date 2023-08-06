@@ -5,6 +5,76 @@
 }
 
 .mainSection{
-    background-image: linear-gradient(to right, #434343 0%, black 100%);
+    background-image: linear-gradient(to left, #434343 0%, black 100%);
     flex-grow: 1;
+}
+
+
+.html-icono{
+    color: rgb(255, 145, 0);
+}
+
+.css-icono{
+    color:rgb(18, 86, 212);
+}
+
+.js-icono{
+    color:yellow;
+}
+
+.react-icono{
+    color:rgb(50, 126, 226);
+}
+
+.nodejsmongo-icono{
+    color: green;
+}
+
+@media (min-width: 992px)
+{
+    #home{
+        background-image: url(https://images.alphacoders.com/101/1019517.jpg);
+        height: 1100px;
+        object-fit: cover;
+    }
+    .programando{
+        height: 700px;
+        object-fit: cover;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px)
+{
+    #home{
+        background-image: url(https://images.alphacoders.com/101/1019517.jpg);
+        height: 700px;
+        object-fit: cover;
+    }
+    .programando{
+        height: 400px;
+        object-fit: cover;
+    }
+
+}
+@media (max-width: 767px)
+{
+    #home{
+        background-image: url(https://images.alphacoders.com/101/1019517.jpg);
+        height: 600px;
+        object-fit: cover;
+    }
+    .programando{
+        height: 250px;
+        object-fit: cover;
+    }
+
+}
+
+.pres{
+    text-shadow: 
+    0 0 7px #fff,
+    0 0 14px #fff,
+    0 0 21px #fff,
+    0 0 28px #fff;
+    
 }

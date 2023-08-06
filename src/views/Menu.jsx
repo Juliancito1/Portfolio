@@ -9,8 +9,8 @@ const Menu = () => {
         <Navbar.Collapse id="navbar-nav">
           <Nav className="ms-auto">
             <Nav.Link href="#sobremi">Sobre Mi</Nav.Link>
-            <Nav.Link href="#link">Conocimientos</Nav.Link>
-            <Nav.Link href="#link">Proyectos</Nav.Link>
+            <Nav.Link href="#conocimientos">Conocimientos</Nav.Link>
+            <Nav.Link href="#proyectos">Proyectos</Nav.Link>
             <Nav.Link href="#link">Contacto</Nav.Link>
           </Nav>
         </Navbar.Collapse>
