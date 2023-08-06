@@ -2,7 +2,7 @@ import './App.css'
 import "bootstrap/dist/css/bootstrap.min.css";
 import Principal from './components/Principal'
 import Menu from './views/Menu';
-import SobreMi from './components/Sobremi';
+import Info from './components/Info';
 import Conocimientos from './components/Conocimientos';
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <section className='mainSection'>
         <Menu></Menu>
         <Principal/>
-        <SobreMi></SobreMi>
+        <Info></Info>
         <Conocimientos></Conocimientos>
     </section>
   )

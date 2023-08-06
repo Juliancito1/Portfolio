@@ -1,6 +1,6 @@
 import React from 'react';
 import Avatar from '../assets/Avatar.jpeg'
-const SobreMi = () => {
+const Info = () => {
     return (
         <section className="container text-light" id="sobremi">
           <h2 className="text-center my-3 display-3">Sobre Mi</h2>
@@ -17,4 +17,4 @@ const SobreMi = () => {
     );
 };
 
-export default SobreMi;
+export default Info;
