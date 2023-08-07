@@ -4,6 +4,7 @@ import Principal from './components/Principal'
 import Menu from './views/Menu';
 import Info from './components/Info';
 import Conocimientos from './components/Conocimientos';
+import Proyectos from './components/Proyectos';
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
         <Principal/>
         <Info></Info>
         <Conocimientos></Conocimientos>
+        <Proyectos></Proyectos>
     </section>
   )
 }
