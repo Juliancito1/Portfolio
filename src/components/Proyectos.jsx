@@ -5,7 +5,7 @@ import proyecto2 from "../assets/Proyecto2.png"
 const Proyectos = () => {
     return (
         <Container className='text-center text-light'>
-            <h2 className='display-3'>Proyectos</h2>
+            <h2 className='display-3' id='proyectos'>Proyectos</h2>
             <hr></hr>
             <Row>
             <Col md={12}>
@@ -16,8 +16,8 @@ const Proyectos = () => {
                         </Card.Title>
                 </Card.Header>
                 <Card.Body>
-                    <Card.Text>
-                    <h2 className='text-light'>Tucumánime proyecto sobre sitio web basado en la venta de productos de ánime, realizado de forma grupal</h2>
+                    <Card.Text className='fs-2 text-light'>
+                    Tucumánime proyecto sobre sitio web basado en la venta de productos de ánime, realizado de forma grupal
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer className='d-flex justify-content-end'>
@@ -33,8 +33,8 @@ const Proyectos = () => {
                     </Card.Title>
                 </Card.Header>
                 <Card.Body>
-                    <Card.Text>
-                    <h2 className='text-light'>Bon Dia fue un sitio web creado de forma grupal, el mismo se basa en un sistema de pedidos de un restaurante</h2>
+                    <Card.Text className='fs-2 text-light'>
+                    Bon Dia fue un sitio web creado de forma grupal, el mismo se basa en un sistema de pedidos de un restaurante
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer className='d-flex justify-content-end'>

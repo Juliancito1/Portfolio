@@ -16,6 +16,6 @@ function App() {
         <Proyectos></Proyectos>
     </section>
   )
-}
+  }
 
 export default App
