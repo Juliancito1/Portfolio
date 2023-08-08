@@ -6,6 +6,7 @@ import Info from './components/Info';
 import Conocimientos from './components/Conocimientos';
 import Proyectos from './components/Proyectos';
 import Contacto from './components/Contacto';
+import Footer from './views/Footer';
 function App() {
 
   return (
@@ -16,6 +17,7 @@ function App() {
         <Conocimientos></Conocimientos>
         <Proyectos></Proyectos>
         <Contacto></Contacto>
+        <Footer></Footer>
     </section>
   )
   }
