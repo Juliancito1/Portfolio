@@ -5,6 +5,7 @@ import Menu from './views/Menu';
 import Info from './components/Info';
 import Conocimientos from './components/Conocimientos';
 import Proyectos from './components/Proyectos';
+import Contacto from './components/Contacto';
 function App() {
 
   return (
@@ -14,6 +15,7 @@ function App() {
         <Info></Info>
         <Conocimientos></Conocimientos>
         <Proyectos></Proyectos>
+        <Contacto></Contacto>
     </section>
   )
   }
