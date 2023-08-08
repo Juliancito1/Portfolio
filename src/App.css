@@ -30,6 +30,10 @@
     color: green;
 }
 
+.navbaryfooter{
+    background-color: rgb(99, 98, 98);
+}
+
 @media (min-width: 992px)
 {
     #home{
@@ -41,6 +45,15 @@
         height: 700px;
         object-fit: cover;
     }
+    #boton-navbar{
+        transition: 1s;
+    }
+    
+    #boton-navbar:hover{
+        background-color: #fff !important;
+        color: black;
+    }
+    
 
 }
 @media (min-width: 768px) and (max-width: 991px)
@@ -78,3 +91,9 @@
     0 0 28px #fff;
     
 }
+
+.logo{
+    height: 100px;
+    object-fit: cover;
+}
+
