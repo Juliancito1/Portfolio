@@ -5,7 +5,7 @@
 }
 
 .mainSection{
-    background-image: linear-gradient(to left, #434343 0%, black 100%);
+    background-color: black;
     flex-grow: 1;
 }
 
@@ -31,27 +31,30 @@
 }
 
 .navbaryfooter{
-    background-color: rgb(99, 98, 98);
+    background-color: rgb(0, 0, 0);
 }
 
 @media (min-width: 992px)
 {
     #home{
-        background-image: url(https://images.alphacoders.com/101/1019517.jpg);
+        background-color: rgb(255,255,255,0.1);
         height: 1100px;
-        object-fit: cover;
-    }
-    .programando{
-        height: 700px;
-        object-fit: cover;
     }
     #boton-navbar{
         transition: 1s;
     }
     
     #boton-navbar:hover{
-        background-color: #fff !important;
+        background-color: #fff;
         color: black;
+    }
+
+    .pres{
+        margin-top: 350px
+    }
+    .imagen-perfil{
+        height: 600px;
+        object-fit: cover;
     }
     
 
@@ -59,12 +62,15 @@
 @media (min-width: 768px) and (max-width: 991px)
 {
     #home{
-        background-image: url(https://images.alphacoders.com/101/1019517.jpg);
+        background-color: rgb(255,255,255,0.1);
         height: 700px;
-        object-fit: cover;
     }
-    .programando{
-        height: 400px;
+
+    .pres{
+        padding-top: 240px;
+    }
+    .imagen-perfil{
+        height: 350px;
         object-fit: cover;
     }
 
@@ -72,28 +78,14 @@
 @media (max-width: 767px)
 {
     #home{
-        background-image: url(https://images.alphacoders.com/101/1019517.jpg);
+        background-color: rgb(255,255,255,0.1);
         height: 600px;
-        object-fit: cover;
     }
-    .programando{
-        height: 250px;
-        object-fit: cover;
+    .pres{
+        padding-top: 150px;
     }
-
-}
-
-.pres{
-    text-shadow: 
-    0 0 7px #fff,
-    0 0 14px #fff,
-    0 0 21px #fff,
-    0 0 28px #fff;
-    
-}
-
-.logo{
-    height: 100px;
-    object-fit: cover;
+    .imagen-perfil{
+        width: 200px;
+    }
 }
 
