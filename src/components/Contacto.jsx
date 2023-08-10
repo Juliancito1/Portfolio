@@ -4,7 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {AiFillGithub} from 'react-icons/ai'
 const Contacto = () => {
     return (
-        <Container className='text-light'>
+        <Container className='text-light' id='contactos'>
             <h2 className='mt-4 text-center display-3'>Contactos</h2>
             <hr></hr>
             <section className='my-3 text-center d-flex justify-content-center'>
