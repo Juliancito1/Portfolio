@@ -37,21 +37,20 @@
 @media (min-width: 992px)
 {
     #home{
-        background-image: url(https://images.alphacoders.com/101/1019517.jpg);
+        background-color: rgb(255,255,255,0.1);
         height: 1100px;
-        object-fit: cover;
-    }
-    .programando{
-        height: 700px;
-        object-fit: cover;
     }
     #boton-navbar{
         transition: 1s;
     }
     
     #boton-navbar:hover{
-        background-color: #fff !important;
+        background-color: #fff;
         color: black;
+    }
+
+    .pres{
+        margin-top: 350px
     }
     
 
@@ -59,37 +58,24 @@
 @media (min-width: 768px) and (max-width: 991px)
 {
     #home{
-        background-image: url(https://images.alphacoders.com/101/1019517.jpg);
+        background-color: rgb(255,255,255,0.1);
         height: 700px;
-        object-fit: cover;
     }
-    .programando{
-        height: 400px;
-        object-fit: cover;
+
+    .pres{
+        padding-top: 240px;
     }
 
 }
 @media (max-width: 767px)
 {
     #home{
-        background-image: url(https://images.alphacoders.com/101/1019517.jpg);
+        background-color: rgb(255,255,255,0.1);
         height: 600px;
-        object-fit: cover;
     }
-    .programando{
-        height: 250px;
-        object-fit: cover;
+    .pres{
+        padding-top: 150px;
     }
-
-}
-
-.pres{
-    text-shadow: 
-    0 0 7px #fff,
-    0 0 14px #fff,
-    0 0 21px #fff,
-    0 0 28px #fff;
-    
 }
 
 .logo{
