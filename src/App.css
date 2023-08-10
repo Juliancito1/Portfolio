@@ -5,7 +5,7 @@
 }
 
 .mainSection{
-    background-image: linear-gradient(to left, #434343 0%, black 100%);
+    background-color: black;
     flex-grow: 1;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .navbaryfooter{
-    background-color: rgb(99, 98, 98);
+    background-color: rgb(0, 0, 0);
 }
 
 @media (min-width: 992px)

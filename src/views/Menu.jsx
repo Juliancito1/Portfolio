@@ -2,7 +2,7 @@ import { Navbar, Nav, Container, Button  } from "react-bootstrap";
 import logo from "../assets/Logo.png"
 const Menu = () => {
     return (
-        <Navbar expand="lg" className="pb-2 navbaryfooter" fixed="top">
+        <Navbar expand="lg" className="pb-2 bg-dark" fixed="top">
       <Container fluid >
         <Navbar.Brand href="#home">
           <img className="logo" src={logo}></img>

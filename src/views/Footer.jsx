@@ -2,7 +2,7 @@ import { Col, Container, Row, Button } from "react-bootstrap";
 import logo from "../assets/Logo.png";
 const Footer = () => {
   return (
-    <footer className="text-light navbaryfooter py-5 mt-5">
+    <footer className="text-light bg-dark py-5 mt-5">
       <Container className="d-flex flex-column justify-content-center text-center">
         <Row>
           <Col md={2} className="text-center">
