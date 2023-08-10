@@ -13,7 +13,7 @@ const Menu = () => {
             <Nav.Link href="#sobremi"><Button variant="dark" className="fs-3 w-100" id="boton-navbar">Sobre Mi</Button></Nav.Link>
             <Nav.Link href="#conocimientos"><Button variant="dark" className="fs-3 w-100" id="boton-navbar">Conocimientos</Button></Nav.Link>
             <Nav.Link href="#proyectos"><Button variant="dark" className="fs-3 w-100" id="boton-navbar">Proyectos</Button></Nav.Link>
-            <Nav.Link href="#link"><Button variant="dark" className="fs-3 w-100" id="boton-navbar">Contacto</Button></Nav.Link>
+            <Nav.Link href="#contactos"><Button variant="dark" className="fs-3 w-100" id="boton-navbar">Contactos</Button></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
