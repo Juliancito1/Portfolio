@@ -3,9 +3,9 @@ import logo from "../assets/Logo.png"
 const Menu = () => {
     return (
         <Navbar expand="lg" className="pb-2 bg-dark" fixed="top">
-      <Container fluid >
+      <Container >
         <Navbar.Brand href="#home">
-          <img className="logo" src={logo}></img>
+          <h2 className="text-light mt-lg-2">Mi Portfolio</h2>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbar-nav" />
         <Navbar.Collapse id="navbar-nav">

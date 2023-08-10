@@ -52,6 +52,10 @@
     .pres{
         margin-top: 350px
     }
+    .imagen-perfil{
+        height: 600px;
+        object-fit: cover;
+    }
     
 
 }
@@ -65,6 +69,10 @@
     .pres{
         padding-top: 240px;
     }
+    .imagen-perfil{
+        height: 350px;
+        object-fit: cover;
+    }
 
 }
 @media (max-width: 767px)
@@ -76,10 +84,8 @@
     .pres{
         padding-top: 150px;
     }
-}
-
-.logo{
-    height: 100px;
-    object-fit: cover;
+    .imagen-perfil{
+        width: 200px;
+    }
 }
 

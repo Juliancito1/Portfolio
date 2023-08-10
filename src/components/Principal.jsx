@@ -1,6 +1,5 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
-import programando from "../assets/programando.gif"
 const Principal = () => {
   return (
     <section className="text-light my-5 pt-lg-5" id="home">
