@@ -4,7 +4,10 @@ import {BiLogoHtml5, BiLogoCss3, BiLogoJavascript, BiLogoReact, BiLogoMongodb, B
 const Conocimientos = () => {
     return (
         <Container className="text-light my-5" id="conocimientos">
+            <div data-aos="fade-down">
             <h3 className='display-3 text-center'>Conocimientos</h3>
+            </div>
+            <div data-aos="fade-left">
             <h4 className="display-4">Frontend</h4>
             <hr></hr>
             <Row>
@@ -43,6 +46,7 @@ const Conocimientos = () => {
             </Card>
             </Col>
             </Row>
+            </div>
         </Container>
     );
 };
