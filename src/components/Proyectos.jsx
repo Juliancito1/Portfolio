@@ -4,15 +4,15 @@ import proyectobondia from "../assets/Proyecto.png"
 import proyecto2 from "../assets/Proyecto2.png"
 const Proyectos = () => {
     return (
-        <Container className='text-center text-light'>
+        <Container className='text-center text-light' data-aos="fade-down">
             <h2 className='display-3' id='proyectos'>Proyectos</h2>
             <hr></hr>
             <Row>
-            <Col md={12}>
-            <Card bg='secondary'>
+            <Col md={6}>
+            <Card bg='dark'>
                 <Card.Header>
                     <Card.Title>
-                        <img className='img-fluid' src={proyecto2} alt="" />
+                        <img className='projectImage' src={proyecto2} alt="" />
                         </Card.Title>
                 </Card.Header>
                 <Card.Body>
@@ -21,15 +21,15 @@ const Proyectos = () => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer className='d-flex justify-content-end'>
-                    <Button href='https://tucumananimeprototipo.netlify.app/' variant='dark' className='fs-3'>Ver proyecto</Button>
+                    <Button target='_blank' href='https://tucumananimeprototipo.netlify.app/' variant='light' className='fs-3'>Ver proyecto</Button>
                 </Card.Footer>
             </Card>
             </Col>
-            <Col md={12}>
-            <Card bg='secondary' className='my-5'>
+            <Col md={6}>
+            <Card bg='dark' className='h-100 mt-4 mt-md-0'>
                 <Card.Header>
                     <Card.Title>
-                    <img className='img-fluid' src={proyectobondia} alt="" />
+                    <img className='projectImage' src={proyectobondia} alt="" />
                     </Card.Title>
                 </Card.Header>
                 <Card.Body>
@@ -38,7 +38,7 @@ const Proyectos = () => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer className='d-flex justify-content-end'>
-                    <Button href='https://bondia-restaurant.netlify.app/'variant='dark' className='fs-3'>Ver proyecto</Button>
+                    <Button target='_blank' href='https://bondia-restaurant.netlify.app/'variant='light' className='fs-3'>Ver proyecto</Button>
                 </Card.Footer>
             </Card>
             </Col>

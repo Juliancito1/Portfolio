@@ -7,7 +7,15 @@ import Conocimientos from './components/Conocimientos';
 import Proyectos from './components/Proyectos';
 import Contacto from './components/Contacto';
 import Footer from './views/Footer';
+import Aos from 'aos';
+import 'aos/dist/aos.css'
+import { useEffect } from 'react';
 function App() {
+
+  useEffect(() => {
+    Aos.init()
+  },[])
+
 
   return (
     <section className='mainSection'>
