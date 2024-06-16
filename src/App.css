@@ -2,6 +2,26 @@
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+}
+
+
+::-webkit-scrollbar-track{
+    background-color: rgba(0, 0, 0, 0.815);
+}
+
+
+::-webkit-scrollbar-thumb{
+    border-radius: 5px;
+    background-color: rgba(32, 101, 206, 0.712);
+}
+
+::-webkit-scrollbar-thumb:active{
+    background-color: rgba(17, 64, 134, 0.712);
 }
 
 .mainSection{
@@ -56,6 +76,12 @@
         height: 600px;
         object-fit: cover;
     }
+
+    .projectImage{
+        width: 500px;
+        height: 300px;
+        object-fit: cover;
+    }
     
 
 }
@@ -74,6 +100,12 @@
         object-fit: cover;
     }
 
+    .projectImage{
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
 }
 @media (max-width: 767px)
 {
@@ -86,6 +118,12 @@
     }
     .imagen-perfil{
         width: 200px;
+    }
+
+    .projectImage{
+        width: 300px;
+        height: 150px;
+        object-fit: cover;
     }
 }
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import Foto from '../assets/Imagen_CV.jpeg'
-import CV from '../assets/CV.pdf'
+import CV from '../assets/CV-Julian.pdf'
 import { Button } from 'react-bootstrap';
 const Info = () => {
     return (
-        <section className="container text-light" id="sobremi">
+        <section className="container text-light" data-aos="fade-up" id="sobremi">
           <h2 className="text-center my-3 display-3">Sobre Mi</h2>
           <div className='text-center'>
             <img src={Foto} alt="" className='rounded-circle imagen-perfil'/>
