@@ -21,7 +21,7 @@ const Proyectos = () => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer className='d-flex justify-content-end'>
-                    <Button href='https://tucumananimeprototipo.netlify.app/' variant='light' className='fs-3'>Ver proyecto</Button>
+                    <Button target='_blank' href='https://tucumananimeprototipo.netlify.app/' variant='light' className='fs-3'>Ver proyecto</Button>
                 </Card.Footer>
             </Card>
             </Col>
@@ -38,7 +38,7 @@ const Proyectos = () => {
                     </Card.Text>
                 </Card.Body>
                 <Card.Footer className='d-flex justify-content-end'>
-                    <Button href='https://bondia-restaurant.netlify.app/'variant='light' className='fs-3'>Ver proyecto</Button>
+                    <Button target='_blank' href='https://bondia-restaurant.netlify.app/'variant='light' className='fs-3'>Ver proyecto</Button>
                 </Card.Footer>
             </Card>
             </Col>
