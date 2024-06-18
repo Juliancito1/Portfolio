@@ -2,6 +2,8 @@ import React from 'react';
 import { Container, Card, Row, Col, Button } from 'react-bootstrap';
 import proyectobondia from "../assets/Proyecto.png"
 import proyecto2 from "../assets/Proyecto2.png"
+import RollingBank from "../assets/RollingBank.jpg"
+
 const Proyectos = () => {
     return (
         <Container className='text-center text-light' data-aos="fade-down">
@@ -10,36 +12,44 @@ const Proyectos = () => {
             <Row>
             <Col md={6}>
             <Card bg='dark'>
-                <Card.Header>
+                <Card.Header className='border-0'>
                     <Card.Title>
-                        <img className='projectImage' src={proyecto2} alt="" />
+                        <img className='projectImage' src={proyecto2} alt="Portada Tucumánime" />
+                        <h2 className='text-light mt-3'>Tucumánime</h2>
                         </Card.Title>
                 </Card.Header>
                 <Card.Body>
-                    <Card.Text className='fs-2 text-light'>
-                    Tucumánime proyecto sobre sitio web basado en la venta de productos de ánime, realizado de forma grupal
-                    </Card.Text>
+                    <Button target='_blank' href='https://tucumananimeprototipo.netlify.app/' variant='light' className='fs-4 me-2 me-lg-4'>Live Demo</Button>
+                    <Button target='_blank' href='https://github.com/mariju92/proyecto-final-modulo-2' variant='light' className='fs-4'>Repositorio</Button>
                 </Card.Body>
-                <Card.Footer className='d-flex justify-content-end'>
-                    <Button target='_blank' href='https://tucumananimeprototipo.netlify.app/' variant='light' className='fs-3'>Ver proyecto</Button>
-                </Card.Footer>
             </Card>
             </Col>
             <Col md={6}>
             <Card bg='dark' className='h-100 mt-4 mt-md-0'>
-                <Card.Header>
+                <Card.Header className='border-0'>
                     <Card.Title>
-                    <img className='projectImage' src={proyectobondia} alt="" />
+                    <img className='projectImage' src={proyectobondia} alt="Portada Bon Dia" />
+                    <h2 className='text-light mt-3'>Bon Dia</h2>
                     </Card.Title>
                 </Card.Header>
                 <Card.Body>
-                    <Card.Text className='fs-2 text-light'>
-                    Bon Dia fue un sitio web creado de forma grupal, el mismo se basa en un sistema de pedidos de un restaurante
-                    </Card.Text>
+                    <Button target='_blank' href='https://bondia-restaurant.netlify.app/'variant='light' className='fs-4 me-2 me-lg-4'>Live Demo</Button>
+                    <Button target='_blank' href='https://github.com/MauroDiazSantilli/ProyectoFinal-Grupo3'variant='light' className='fs-4'>Repositorio</Button>
                 </Card.Body>
-                <Card.Footer className='d-flex justify-content-end'>
-                    <Button target='_blank' href='https://bondia-restaurant.netlify.app/'variant='light' className='fs-3'>Ver proyecto</Button>
-                </Card.Footer>
+            </Card>
+            </Col>
+            <Col md={6} className='mt-3'>
+            <Card bg='dark' className='h-100   mt-md-0'>
+                <Card.Header className='border-0'>
+                    <Card.Title>
+                    <img className='projectImage' src={RollingBank} alt="Portada Rolling Bank" />
+                    <h2 className='text-light mt-3'>Rolling Bank</h2>
+                    </Card.Title>
+                </Card.Header>
+                <Card.Body>
+                    <Button target='_blank' href='https://rollingbank-site.netlify.app/'variant='light' className='fs-4 me-2 me-lg-4'>Live Demo</Button>
+                    <Button target='_blank' href='https://github.com/Juliancito1/RollingBank'variant='light' className='fs-4'>Repositorio</Button>
+                </Card.Body>
             </Card>
             </Col>
             </Row>
